@@ -1,0 +1,30 @@
+{
+    "name": "moderntribe/static-analysis",
+    "description": "Modern Tribe stitic analysis using PHPStan",
+    "license": "GPL-3.0-or-later",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "cweagans/composer-patches": "^1.7",
+        "php-stubs/acf-pro-stubs": "^5.12",
+        "php-stubs/wordpress-tests-stubs": "^5.8",
+        "phpstan/extension-installer": "^1.1",
+        "phpstan/phpstan": "^1.5",
+        "szepeviktor/phpstan-wordpress": "^1.0"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "cweagans/composer-patches": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "extra": {
+        "enable-patching": true,
+        "patches": {
+            "php-stubs/wordpress-stubs": {
+                "Replace duplicate cleanup duplicate calls and update apply filters.": "patches/wordpress-stubs.patch"
+            }
+        }
+    }
+}
