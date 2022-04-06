@@ -20,6 +20,6 @@ pimple.json
 #######################
 *.un~
 
-# Project files #
+# Project files       #
 #######################
 /vendor
