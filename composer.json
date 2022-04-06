@@ -1,6 +1,6 @@
 {
     "name": "moderntribe/static-analysis",
-    "description": "Modern Tribe stitic analysis using PHPStan",
+    "description": "Modern Tribe static analysis using PHPStan",
     "license": "GPL-3.0-or-later",
     "minimum-stability": "dev",
     "prefer-stable": true,
