@@ -20,11 +20,6 @@
         }
     },
     "extra": {
-        "enable-patching": true,
-        "patches": {
-            "php-stubs/wordpress-stubs": {
-                "Replace duplicate cleanup duplicate calls and update apply filters.": "./patches/wordpress-stubs.patch"
-            }
-        }
+        "enable-patching": true
     }
 }
