@@ -20,6 +20,11 @@
         }
     },
     "extra": {
-        "enable-patching": true
+        "enable-patching": true,
+        "patches": {
+            "php-stubs/wordpress-stubs": {
+                "Replace duplicate cleanup duplicate calls and update apply filters.": "https://raw.githubusercontent.com/moderntribe/static-analysis/e052558e9ab0e105f43e2b22e829cadd3d3b1acc/patches/wordpress-stubs.patch"
+            }
+        }
     }
 }
