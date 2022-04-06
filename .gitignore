@@ -1,1 +1,25 @@
-/vendor/
+.DS_Store*
+ehthumbs.db
+._*
+*~
+.svn
+.cvs
+*.bak
+*.swp
+Thumbs.db
+.DS_Store
+.idea
+pimple.json
+.phpstorm.meta.php
+
+# IDE generated files #
+######################
+.vscode
+
+# Vim generated files #
+#######################
+*.un~
+
+# Project files       #
+#######################
+/vendor
