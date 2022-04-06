@@ -52,3 +52,10 @@ parameters:
 ```
 
 To run phpstan on your project, run `phpstan analyse --configuration=phpstan.neon.dist` from your project root.
+
+## Update your project's .gitignore
+
+```gitignore
+/.phpstan-cache
+/phpstan.neon
+```
